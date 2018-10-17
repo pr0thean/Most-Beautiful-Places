@@ -1,0 +1,44 @@
+body,html {
+	min-height: 100%;
+}
+body {
+	background-image: url(img/blue_lagoon2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#container1 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 1200px;
+	background-color: black;
+	padding: 0px 10px 0px 10px;
+	opacity: 0.7;
+}
+#naglowek {
+	height: 80px;
+	text-align: center;
+	color: white;
+	font-size: 70px;
+	text-shadow: 2px 2px #00d6fc;
+	font-family: 'Amatic SC', cursive;
+}
+#opis {
+	color: white;
+	text-align: justify;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	padding: 5px;
+}
+#powrot {
+	font-size: 20px;
+	padding: 5px;
+	font-family: 'Lato', sans-serif;
+}
+#powrot a{
+	color: #00d6fc;
+	text-decoration: none;
+}
+#powrot a:hover{
+	font-weight: bold;
+}
